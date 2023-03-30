@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './Pokemon.css';
 
 class Pokemon extends Component {
   render() {
@@ -7,7 +8,7 @@ class Pokemon extends Component {
     const { id, name, type, averageWeight, image } = pokemon;
     const { value, measurementUnit } = averageWeight;
     return (
-      <li key={ id }>
+      <li key={ id } className="poke-card">
         <p>{name}</p>
         <p>{type}</p>
         <p>

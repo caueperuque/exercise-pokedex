@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Pokemon from './Pokemon';
+import './Pokedex.css';
 
 export default class Pokedex extends Component {
   render() {
@@ -11,7 +12,13 @@ export default class Pokedex extends Component {
         <ul className="pokedex">
           {
             pokemonList
-              .map((pokemon) => <Pokemon key={ pokemon.id } pokemon={ pokemon } />)
+              .map((pokemon, index) => (
+                <div key={ index } className="poke-list">
+                  <Pokemon
+                    key={ pokemon.id }
+                    pokemon={ pokemon }
+                  />
+                </div>))
           }
         </ul>
       </main>
