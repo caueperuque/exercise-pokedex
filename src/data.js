@@ -52,7 +52,7 @@ const pokemonList = [
       measurementUnit: 'kg',
     },
     image: 'https://cdn2.bulbagarden.net/upload/8/88/Spr_5b_065_m.png',
-    moreInfo: 'https://bulbapedia.bulbagarden.net/wiki/Alakazam_(Pok%C3%A9mon)',
+    moreInfo: 'https://archives.bulbagarden.net/media/upload/8/88/Spr_5b_065_m.png',
   },
   {
     id: 151,
@@ -95,7 +95,7 @@ const pokemonList = [
       value: 16.5,
       measurementUnit: 'kg',
     },
-    image: 'https://cdn2.bulbagarden.net/upload/2/2c/Spr_5b_148.png',
+    image: 'https://archives.bulbagarden.net/media/upload/2/2c/Spr_5b_148.png',
     moreInfo: 'https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)',
   },
 ];
