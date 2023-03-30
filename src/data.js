@@ -62,7 +62,7 @@ const pokemonList = [
       value: 4.0,
       measurementUnit: 'kg',
     },
-    image: 'https://cdn2.bulbagarden.net/upload/4/43/Spr_5b_151.png',
+    image: 'https://archives.bulbagarden.net/media/upload/4/43/Spr_5b_151.png',
     moreInfo: 'https://bulbapedia.bulbagarden.net/wiki/Mew_(Pok%C3%A9mon)',
   },
   {
